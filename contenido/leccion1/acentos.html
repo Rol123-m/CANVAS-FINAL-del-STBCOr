@@ -1,0 +1,158 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acentos y Puntuación - Lección 1</title>
+    <link rel="stylesheet" href="griego-koine.css">
+</head>
+<body>
+    
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="../../assets/logo.png" alt="Logo Seminario Teológico Bautista de Cuba Oriental" class="logo">
+      </div>
+      <div class="header-text">
+        <h1>Aprendiendo Griego Koiné: Acentos</h1>
+        <div class="institution">Seminario Teológico Bautista de Cuba Oriental</div>
+      </div>
+    </div>
+  </header>
+    <div class="lesson-content-container">
+        <h2>Puntuación y Acentos en Griego Koiné</h2>
+
+        <div class="section-box">
+            <h3>Puntuación en Griego</h3>
+            <p>La puntuación en griego koiné tiene algunas diferencias importantes con el español:</p>
+            <ul>
+                <li><strong>Coma (,):</strong> Igual que en español (ej. θεός,)</li>
+                <li><strong>Punto (.):</strong> Igual que en español (ej. θεός.)</li>
+                <li><strong>Punto y coma (;):</strong> <strong>¡Diferente!</strong> En griego indica signo de interrogación (ej. θεός;)</li>
+                <li><strong>Signo de interrogación (?):</strong> Se usa como punto y coma en español</li>
+            </ul>
+            <div class="note">
+                <strong>Nota importante:</strong> Debes acostumbrarte a que el punto y coma (;) en griego representa un signo de interrogación.
+            </div>
+        </div>
+
+        <div class="diacritic-box">
+            <h3>Marcas Diacríticas</h3>
+            <ul>
+                <li><strong>Diéresis (¨):</strong> Indica que dos vocales seguidas NO forman un diptongo</li>
+                <li><strong>Apostrofo (᾿):</strong> Marca la eliminación de una vocal final cuando la siguiente palabra comienza con vocal.
+                    Ejemplo: <span class="greek-example">ἀπὸ ἐμοῦ → ἀπ᾽ ἐμοῦ</span> (similar a "can't" en inglés)</li>
+            </ul>
+        </div>
+
+        <div class="section-box">
+            <h3>Acentos en Griego</h3>
+            <p>Casi todas las palabras en griego tienen un acento que marca la sílaba tónica:</p>
+            <ul>
+                <li><span class="accent-type">αἰτέω</span> <strong>Acento agudo:</strong> Tonos ascendente (originalmente)</li>
+                <li><span class="accent-type">καὶ θεὸς</span> <strong>Acento grave:</strong> Tono descendente (originalmente)</li>
+                <li><span class="accent-type">ἁγνῶς</span> <strong>Acento circunflejo:</strong> Tono ascendente-descendente (originalmente)</li>
+            </ul>
+            
+            <div class="note">
+                <strong>Hoy en día:</strong> No se nota diferencia de pronunciación entre los acentos. 
+                Sirven para marcar la sílaba tónica y diferenciar palabras.
+            </div>
+
+            <h4>Utilidad de los Acentos:</h4>
+            <ol>
+                <li><strong>Pronunciación uniforme:</strong> Mantienen consistencia en clase</li>
+                <li><strong>Memorización:</strong> Facilitan el aprendizaje de vocabulario</li>
+                <li><strong>Diferenciación:</strong> Algunas palabras solo se diferencian por el acento:
+                    <ul>
+                        <li><span class="greek-example">τίς</span> = "¿quién?" (interrogativo)</li>
+                        <li><span class="greek-example">τις</span> = "alguien" (indefinido)</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="quiz-section">
+            <h3>Comprueba tu Conocimiento</h3>
+            
+            <div class="quiz-question">
+                <p><strong>1. ¿Qué indica el acento agudo en griego?</strong></p>
+                <div class="quiz-options">
+                    <label><input type="radio" name="q1" value="a"> Que el tono baja ligeramente</label>
+                    <label><input type="radio" name="q1" value="b"> Que el tono sube ligeramente</label>
+                    <label><input type="radio" name="q1" value="c"> Que el tono sube y luego baja</label>
+                </div>
+                <div class="result" id="result1"></div>
+            </div>
+
+            <div class="quiz-question">
+                <p><strong>2. ¿Qué marca diacrítica se usa para indicar la eliminación de una vocal?</strong></p>
+                <div class="quiz-options">
+                    <label><input type="radio" name="q2" value="a"> Diéresis</label>
+                    <label><input type="radio" name="q2" value="b"> Acento circunflejo</label>
+                    <label><input type="radio" name="q2" value="c"> Apostrofo</label>
+                </div>
+                <div class="result" id="result2"></div>
+            </div>
+
+            <div class="quiz-question">
+                <p><strong>3. ¿Qué palabra significa "¿quién?"?</strong></p>
+                <div class="quiz-options">
+                    <label><input type="radio" name="q3" value="a"> τις</label>
+                    <label><input type="radio" name="q3" value="b"> τίς</label>
+                    <label><input type="radio" name="q3" value="c"> τισ</label>
+                </div>
+                <div class="result" id="result3"></div>
+            </div>
+
+            <button onclick="checkAnswers()">
+                <i class="fas fa-check-circle"></i> Comprobar Respuestas
+            </button>
+        </div>
+    </div>
+     <footer>
+    <div class="footer-container">
+      <img src="../../assets/logo.png" alt="Logo Seminario Teológico Bautista de Cuba Oriental" class="footer-logo">
+      <div class="copyright">
+        <p>© 2026–2027 Seminario Teológico Bautista de Cuba Oriental</p>
+        <p>Departamento de Lenguas Bíblicas | Material didáctico para el estudio del Griego Koiné</p>
+      </div>
+    </div>
+  </footer>
+
+    <script>
+        function checkAnswers() {
+            const answers = {
+                q1: 'b',
+                q2: 'c',
+                q3: 'b'
+            };
+
+            // Mostrar resultados
+            for (const question in answers) {
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const resultElement = document.getElementById(`result${question.slice(1)}`);
+                
+                if (selectedOption) {
+                    if (selectedOption.value === answers[question]) {
+                        resultElement.textContent = "✓ ¡Correcto!";
+                        resultElement.className = "result correct";
+                    } else {
+                        resultElement.textContent = "✗ Incorrecto. La respuesta correcta es la opción " + 
+                            (answers[question] === 'a' ? 'A' : answers[question] === 'b' ? 'B' : 'C');
+                        resultElement.className = "result incorrect";
+                    }
+                } else {
+                    resultElement.textContent = "Por favor, selecciona una respuesta.";
+                    resultElement.className = "result incorrect";
+                }
+            }
+
+            // Deshabilitar todas las opciones después de responder
+            document.querySelectorAll('.quiz-options input').forEach(input => {
+                input.disabled = true;
+            });
+        }
+    </script>
+</body>
+</html>

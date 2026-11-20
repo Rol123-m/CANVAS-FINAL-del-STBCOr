@@ -1,0 +1,771 @@
+{
+ "version": 1,
+ "asignatura": {
+  "nombre": "Griego I · Koiné del Nuevo Testamento",
+  "descripcion": "Fundamentos del griego koiné bíblico en 12 lecciones: alfabeto, sustantivos, artículo, adjetivos, pronombres, preposiciones, verbo εἰμί, presente, imperfecto y futuro. Curso online intensivo de 4 semanas.",
+  "color": "#14385c",
+  "carpeta": "contenido",
+  "profEmail": "joelgc242@gmail.com",
+  "profWa": "5353422375",
+  "matricularGrupos": [
+   "1.er año"
+  ]
+ },
+ "pestanas": [
+  {
+   "titulo": "Presentación del curso",
+   "icono": "fa-circle-info",
+   "tipo": "contenido",
+   "contenido": "Bienvenido a Griego I, la asignatura que te acerca a la lengua original del Nuevo Testamento.\n\nLa asignatura busca contribuir al aprendizaje del griego para que leas e interpretes escritos en esta lengua y, al finalizar, sientas seguridad y compromiso en la exposición de la Palabra de Dios. El estudio del griego equipa para preparar y presentar mejor la Palabra, defender la verdad que se expone y elevar el nivel de conocimiento del Nuevo Testamento.\n\n## Modalidad\n- Curso 100 % en línea: sesiones sincrónicas (audiollamadas) los viernes a las 2:30 pm.\n- Actividades asincrónicas en esta plataforma durante la semana.\n- 4 semanas intensivas, a razón de 3 lecciones por semana.\n- Todas las tareas vencen el domingo a las 11:59 pm.\n\n## Cómo trabajar cada semana\n1. Estudia las lecciones de la semana en el menú Módulos (los archivos se abren aquí mismo).\n2. Practica el vocabulario de la semana en su pestaña.\n3. Completa la guía de ejercicios y envía tu tarea por correo o WhatsApp desde la pestaña Tareas.\n4. Realiza el quiz de la semana en Exámenes: se corrige al instante y queda registrado.\n5. Participa en los foros de debate cuando se abran.\n\nSi tienes dudas, usa el foro de dudas (cuando tu profesor lo abra) o escribe directamente al profesor desde Tareas."
+  },
+  {
+   "titulo": "Evaluación del curso (100 puntos)",
+   "icono": "fa-clipboard-check",
+   "tipo": "contenido",
+   "contenido": "La evaluación es íntegramente online y consta de cinco componentes:\n\n## 1. Participación en el grupo · 15 puntos\nAsistencia y puntualidad a las sesiones sincrónicas, lectura correcta en voz alta, preguntas pertinentes, actitud humilde y colaboración con los compañeros.\n\n## 2. Guía de ejercicios digital · 25 puntos\nGuía progresiva de las 12 lecciones en formato editable (Google Docs o Word). Se entrega por semana desde la pestaña Tareas. Las guías deben tener completos los ejercicios antes del viernes.\n\n## 3. Quizzes semanales · 25 puntos\nUn quiz online por semana (4 en total), desde casa, con una sola oportunidad y corregido al instante:\n- Quiz 1 (semana 1): lecciones 1–4.\n- Quiz 2 (semana 2): lecciones 5–7.\n- Quiz 3 (semana 3): lecciones 8–10.\n- Quiz 4 (semana 4): lecciones 11 y 12.\nEstá prohibido usar material de clases, libros, IA o cualquier otra herramienta durante los quizzes.\n\n## 4. Foro Debate online · 15 puntos\nDos foros programados con pregunta guía. Aporte inicial fundamentado de no menos de 350 palabras y respuesta a un compañero de no menos de 150.\n\n## 5. Tarjetas resumen · 20 puntos\nUna tarjeta breve por lección (12 en total) que sintetice paradigmas, vocabulario clave y reglas. Formato libre (imagen, PDF o manuscrita fotografiada); se envían al profesor por WhatsApp.\n\n## Política de plagio y uso de IA\nLos trabajos serán revisados para comprobar el uso de inteligencia artificial generativa. Crear los trabajos únicamente con estas herramientas resulta en penalización de la nota o anulación del trabajo. Se prohíbe la redacción de los trabajos y la realización de los quizzes con asistencia de IA; sí se permite usarla para sistematizar o investigar información."
+  },
+  {
+   "titulo": "Sílabo oficial (PDF)",
+   "icono": "fa-file-pdf",
+   "tipo": "enlace",
+   "contenido": "assets/silabo-griego-I-2026-2027.pdf"
+  },
+  {
+   "titulo": "Lección 1 · Alfabeto y pronunciación",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":45,\"desc\":\"Aprende las 24 letras del alfabeto griego y su correcta pronunciación.\",\"paginas\":[{\"t\":\"Introducción al alfabeto\",\"src\":\"contenido/leccion1/alfabeto.html\"},{\"t\":\"Acentos y puntuación\",\"src\":\"contenido/leccion1/acentos.html\"},{\"t\":\"Práctica de escritura\",\"src\":\"contenido/leccion1/simulador.html\"}]}"
+  },
+  {
+   "titulo": "Lección 2 · Introducción a los sustantivos",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":50,\"desc\":\"Conceptos básicos sobre los sustantivos griegos, componentes gramaticales y casos gramaticales.\",\"paginas\":[{\"t\":\"Componentes del sustantivo\",\"src\":\"contenido/leccion2/sustantivos.html\"},{\"t\":\"Los casos gramaticales\",\"src\":\"contenido/leccion2/casos.html\"}]}"
+  },
+  {
+   "titulo": "Lección 3 · Declinaciones y casos básicos",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":60,\"desc\":\"Introducción a las declinaciones griegas y estudio de los casos nominativo y acusativo.\",\"paginas\":[{\"t\":\"Introducción a las Declinaciones\",\"src\":\"contenido/leccion3/declinaciones.html\"},{\"t\":\"Los Primeros Dos Casos\",\"src\":\"contenido/leccion3/nominativo-acusativo.html\"},{\"t\":\"Juego de declinaciones\",\"src\":\"contenido/leccion3/juegoDeclinaciones.html\"}]}"
+  },
+  {
+   "titulo": "Lección 4 · Sustantivos primera declinación y artículo definido",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":55,\"desc\":\"Sustantivos de la primera declinación y uso del artículo definido.\",\"paginas\":[{\"t\":\"Introducción al Artículo Definido\",\"src\":\"contenido/leccion4/articuloDefinido.html\"},{\"t\":\"Más del Artículo Definido\",\"src\":\"contenido/leccion4/articulodefinidoII.html\"},{\"t\":\"Más sobre sustantivos\",\"src\":\"contenido/leccion4/sustantivos.html\"}]}"
+  },
+  {
+   "titulo": "Lección 5 · Los adjetivos",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":50,\"desc\":\"Uso y declinación de adjetivos en griego.\",\"paginas\":[{\"t\":\"Introducción al Adjetivo\",\"src\":\"contenido/leccion5/adjetivos.html\"},{\"t\":\"Más del Adjetivo\",\"src\":\"contenido/leccion5/adjetivos2.html\"},{\"t\":\"Funciones de los adjetivos\",\"src\":\"contenido/leccion5/funcionesAdjetivos.html\"},{\"t\":\"Otros detalles\",\"src\":\"contenido/leccion5/masDetalles.html\"}]}"
+  },
+  {
+   "titulo": "Lección 6 · Pronombres personales",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":45,\"desc\":\"Estudio de los pronombres personales en griego.\",\"paginas\":[{\"t\":\"Introducción a los pronombres\",\"src\":\"contenido/leccion6/IntroPronombres.html\"},{\"t\":\"Más sobre Pronombres\",\"src\":\"contenido/leccion6/MasPronombres.html\"},{\"t\":\"Funciones de los pronombres\",\"src\":\"contenido/leccion6/funcionesPronombre.html\"},{\"t\":\"Tercera Persona\",\"src\":\"contenido/leccion6/tercerapersona.html\"},{\"t\":\"Forma de la tercera persona\",\"src\":\"contenido/leccion6/formaTerceraPersona.html\"},{\"t\":\"Ayuda para la traducción\",\"src\":\"contenido/leccion6/traduccion.html\"}]}"
+  },
+  {
+   "titulo": "Lección 7 · Las preposiciones",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":55,\"desc\":\"Preposiciones griegas y sus casos regidos.\",\"paginas\":[{\"t\":\"Introducción a las preposiciones\",\"src\":\"contenido/leccion7/Introduccion_Preposiciones.html\"},{\"t\":\"Más sobre preposiciones\",\"src\":\"contenido/leccion7/Mas_sobre_preposiciones.html\"},{\"t\":\"Frase preposicional\",\"src\":\"contenido/leccion7/Frase_preposicional.html\"},{\"t\":\"Tabla de las preposiciones\",\"src\":\"contenido/leccion7/tabla_de_preposiciones.html\"}]}"
+  },
+  {
+   "titulo": "Lección 8 · El verbo εἰμί",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":60,\"desc\":\"Estudio del verbo ser/estar en griego.\",\"paginas\":[{\"t\":\"Verbo Eimi\",\"src\":\"contenido/leccion8/verbo_eimi.html\"},{\"t\":\"Nominativo predicativo\",\"src\":\"contenido/leccion8/Nominativo_Predicativo.html\"}]}"
+  },
+  {
+   "titulo": "Lección 9 · Introducción al verbo griego",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":65,\"desc\":\"Conceptos básicos del sistema verbal griego.\",\"paginas\":[{\"t\":\"Introducción a los verbos griegos\",\"src\":\"contenido/leccion9/Verbos_griegos.html\"},{\"t\":\"Componentes básicos\",\"src\":\"contenido/leccion9/componentes_basicos.html\"},{\"t\":\"Presente Activo Indicativo\",\"src\":\"contenido/leccion9/presente_activo_indicativo.html\"},{\"t\":\"Más sobre verbos\",\"src\":\"contenido/leccion9/mas_contenido.html\"}]}"
+  },
+  {
+   "titulo": "Lección 10 · Verbo presente medio pasivo indicativo",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":70,\"desc\":\"Conjugación del presente en voz media/pasiva.\",\"paginas\":[{\"t\":\"Presente medio Pasivo Indicativo\",\"src\":\"contenido/leccion10/verbos_pasivos.html\"},{\"t\":\"Explicación de la voz media\",\"src\":\"contenido/leccion10/voz_media.html\"}]}"
+  },
+  {
+   "titulo": "Lección 11 · Verbo imperfecto indicativo",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":65,\"desc\":\"Uso y conjugación del tiempo imperfecto.\",\"paginas\":[{\"t\":\"Introducción al imperfecto\",\"src\":\"contenido/leccion11/intro_imperfecto.html\"},{\"t\":\"Imperfecto Activo Indicativo\",\"src\":\"contenido/leccion11/imperfecto_activo.html\"},{\"t\":\"Imperfecto Pasivo Indicativo\",\"src\":\"contenido/leccion11/imperfecto_pasivo.html\"},{\"t\":\"Características del imperfecto\",\"src\":\"contenido/leccion11/caracteristicas.html\"},{\"t\":\"Resumen\",\"src\":\"contenido/leccion11/resumen.html\"}]}"
+  },
+  {
+   "titulo": "Lección 12 · Verbo futuro activo y medio",
+   "icono": "fa-book-open",
+   "tipo": "leccion",
+   "contenido": "{\"min\":60,\"desc\":\"Conjugación del futuro en voces activa y media.\",\"paginas\":[{\"t\":\"Introducción al Futuro\",\"src\":\"contenido/leccion12/Introduccion_futuro.html\"},{\"t\":\"Más sobre el futuro\",\"src\":\"contenido/leccion12/mas_futuro.html\"},{\"t\":\"Futuro medio Indicativo\",\"src\":\"contenido/leccion12/futuro_medio_indicativo.html\"},{\"t\":\"Futuro del verbo Eimi\",\"src\":\"contenido/leccion12/futuro_eimi.html\"},{\"t\":\"Futuro Líquido\",\"src\":\"contenido/leccion12/futuro_liquido.html\"}]}"
+  },
+  {
+   "titulo": "Vocabulario · Semana 1 (lecciones 1–4)",
+   "icono": "fa-language",
+   "tipo": "vocabulario",
+   "contenido": "{\"filas\":[[\"ἀγάπη\",\"amor\",\"sust. fem.\"],[\"βίβλος\",\"libro\",\"sust. fem.\"],[\"γένος\",\"género\",\"sust. neut.\"],[\"δόξα\",\"gloria\",\"sust. fem.\"],[\"εἰρήνη\",\"paz\",\"sust. fem.\"],[\"ζωή\",\"vida\",\"sust. fem.\"],[\"ἡμέρα\",\"día\",\"sust. fem.\"],[\"θεός\",\"Dios\",\"sust. masc.\"],[\"ἰδού\",\"he aquí\",\"adverbio\"],[\"καρδία\",\"corazón\",\"sust. fem.\"],[\"λόγος\",\"palabra\",\"sust. masc.\"],[\"μαθητής\",\"discípulo\",\"sust. masc.\"],[\"νόμος\",\"ley\",\"sust. masc.\"],[\"ξένος\",\"extranjero\",\"sust. masc.\"],[\"ὁδός\",\"camino\",\"sust. fem.\"],[\"πατήρ\",\"padre\",\"sust. masc.\"],[\"ῥῆμα\",\"palabra, dicho\",\"sust. neut.\"],[\"σωτήρ\",\"salvador\",\"sust. masc.\"],[\"τέκνον\",\"hijo\",\"sust. neut.\"],[\"ὕμνος\",\"himno\",\"sust. masc.\"],[\"φῶς\",\"luz\",\"sust. neut.\"],[\"χάρις\",\"gracia\",\"sust. fem.\"],[\"ψυχή\",\"alma\",\"sust. fem.\"],[\"ὡς\",\"como\",\"conjunción\"],[\"ἄγγελος\",\"ángel, mensajero\",\"sust. masc.\"],[\"ἀπόστολος\",\"apóstol, enviado\",\"sust. masc. · 2ª decl.\"],[\"ἐπιστολή\",\"carta, epístola\",\"sust. fem. · 1ª decl.\"],[\"ἁμαρτία\",\"pecado\",\"sust. fem. · 1ª decl.\"],[\"ἁμαρτωλός\",\"pecador\",\"sust. masc. · 2ª decl.\"],[\"ἔργον\",\"obra, trabajo\",\"sust. neut. · 2ª decl.\"],[\"γραφή\",\"escritura\",\"sust. fem. · 1ª decl.\"],[\"σάρξ\",\"carne\",\"sust. fem. · 3ª decl.\"],[\"λαός\",\"pueblo\",\"sust. masc. · 2ª decl.\"],[\"λόγος\",\"palabra, discurso\",\"sust. masc. · 2ª decl.\"],[\"Ἰσραήλ\",\"Israel\",\"nombre indeclinable\"],[\"πέμπω\",\"envío, mando\",\"verbo\"],[\"λέγω\",\"digo\",\"verbo\"],[\"γράφω\",\"escribo\",\"verbo\"],[\"δίδωμι\",\"doy\",\"verbo\"],[\"βλέπω\",\"veo\",\"verbo\"],[\"ἀγαπάω\",\"amo\",\"verbo\"],[\"εἰμί\",\"soy, estoy\",\"verbo\"],[\"ἀγαθός\",\"bueno\",\"adjetivo\"],[\"ἀγάπη\",\"amor\",\"sust. fem. · 1ª decl.\"],[\"δόξα\",\"gloria\",\"sust. fem. · 1ª decl.\"],[\"λόγος\",\"palabra\",\"sust. masc. · 2ª decl.\"],[\"ἔργον\",\"obra\",\"sust. neut. · 2ª decl.\"],[\"θεός\",\"Dios\",\"sust. masc. · 2ª decl.\"],[\"κόσμος\",\"mundo\",\"sust. masc. · 2ª decl.\"],[\"Χριστός\",\"Cristo, Ungido\",\"sust. masc. · 2ª decl.\"],[\"ἀρχή\",\"principio\",\"sust. fem. · 1ª decl.\"],[\"γραφή\",\"escritura\",\"sust. fem. · 1ª decl.\"],[\"ὥρα\",\"hora\",\"sust. fem. · 1ª decl. (α)\"],[\"δόξα\",\"gloria\",\"sust. fem. · 1ª decl. (α)\"],[\"Ἰησοῦς\",\"Jesús\",\"sust. masc. parcialmente declinado\"],[\"κόσμος\",\"mundo\",\"sust. masc. · 2ª decl.\"],[\"θεός\",\"Dios\",\"sust. masc. · 2ª decl.\"],[\"λόγος\",\"palabra, verbo\",\"sust. masc. · 2ª decl.\"],[\"ἔργον\",\"obra\",\"sust. neut. · 2ª decl.\"],[\"Χριστός\",\"Cristo\",\"sust. masc. · 2ª decl.\"]]}"
+  },
+  {
+   "titulo": "Vocabulario · Semana 2 (lecciones 5–7)",
+   "icono": "fa-language",
+   "tipo": "vocabulario",
+   "contenido": "{\"filas\":[[\"ἀγαθός\",\"bueno\",\"adjetivo · 2-1-2\"],[\"μέγας\",\"grande\",\"adjetivo\"],[\"πόλις\",\"ciudad\",\"sust. fem.\"],[\"καλός\",\"bueno, hermoso\",\"adjetivo · 2-1-2\"],[\"πιστός\",\"fiel\",\"adjetivo · 2-1-2\"],[\"νέος\",\"nuevo\",\"adjetivo · 2-1-2\"],[\"ἄνθρωπος\",\"hombre, ser humano\",\"sust. masc. · 2ª decl.\"],[\"θεός\",\"Dios\",\"sust. masc.\"],[\"ἔργον\",\"obra\",\"sust. neut.\"],[\"ἐγώ\",\"yo\",\"pron. 1ª pers. sg. nom.\"],[\"ἐμοῦ / μου\",\"de mí, mi\",\"pron. 1ª pers. sg. gen.\"],[\"ἐμοί / μοι\",\"a mí, me\",\"pron. 1ª pers. sg. dat.\"],[\"ἐμέ / με\",\"a mí, me\",\"pron. 1ª pers. sg. ac.\"],[\"σύ\",\"tú\",\"pron. 2ª pers. sg. nom.\"],[\"σοῦ / σου\",\"de ti, tu\",\"pron. 2ª pers. sg. gen.\"],[\"σοί / σοι\",\"a ti, te\",\"pron. 2ª pers. sg. dat.\"],[\"σέ / σε\",\"a ti, te\",\"pron. 2ª pers. sg. ac.\"],[\"ἡμεῖς\",\"nosotros\",\"pron. 1ª pers. pl. nom.\"],[\"ἡμῶν\",\"de nosotros\",\"pron. 1ª pers. pl. gen.\"],[\"ἡμῖν\",\"a nosotros\",\"pron. 1ª pers. pl. dat.\"],[\"ἡμᾶς\",\"a nosotros, nos\",\"pron. 1ª pers. pl. ac.\"],[\"ὑμεῖς\",\"vosotros\",\"pron. 2ª pers. pl. nom.\"],[\"ὑμῶν\",\"de vosotros\",\"pron. 2ª pers. pl. gen.\"],[\"ὑμῖν\",\"a vosotros\",\"pron. 2ª pers. pl. dat.\"],[\"ὑμᾶς\",\"a vosotros, os\",\"pron. 2ª pers. pl. ac.\"],[\"αὐτός\",\"él\",\"pron. 3ª pers. masc.\"],[\"αὐτή\",\"ella\",\"pron. 3ª pers. fem.\"],[\"αὐτό\",\"ello\",\"pron. 3ª pers. neut.\"],[\"πιστεύω\",\"creo, tengo fe\",\"verbo\"],[\"βαπτίζω\",\"bautizo\",\"verbo\"],[\"ὕδωρ\",\"agua\",\"sust. neut.\"],[\"πνεῦμα\",\"espíritu, viento\",\"sust. neut.\"],[\"ἅγιος\",\"santo\",\"adjetivo\"],[\"ἐν\",\"en, dentro de\",\"prep. + dat.\"],[\"εἰς\",\"hacia, para, en\",\"prep. + acc.\"],[\"ἐκ / ἐξ\",\"de, desde, fuera de\",\"prep. + gen.\"],[\"ἀπό\",\"desde, de (origen)\",\"prep. + gen.\"],[\"πρός\",\"hacia, con, cerca de\",\"prep. + acc.\"],[\"διά\",\"a través de / a causa de\",\"prep. + gen. / acc.\"],[\"μετά\",\"con / después de\",\"prep. + gen. / acc.\"],[\"ἀνά\",\"arriba, a lo largo de\",\"prep. + acc.\"],[\"ἀντί\",\"en lugar de, por\",\"prep. + gen.\"],[\"ἄνευ\",\"sin\",\"prep. + gen.\"],[\"ἐπί\",\"sobre, en\",\"prep. + gen/dat/acc\"],[\"ἕνεκεν\",\"por causa de\",\"prep. + gen.\"],[\"κατά\",\"según, a lo largo de / contra\",\"prep. + acc. / gen.\"],[\"παρά\",\"junto a, al lado de\",\"prep. + dat. / acc. / gen.\"],[\"περί\",\"acerca de / alrededor de\",\"prep. + gen. / acc.\"],[\"πρό\",\"antes de\",\"prep. + gen.\"],[\"σύν\",\"con (compañía)\",\"prep. + dat.\"],[\"ὑπέρ\",\"en favor de / sobre\",\"prep. + gen. / acc.\"],[\"ὑπό\",\"por (agente) / bajo\",\"prep. + gen. / acc.\"],[\"χωρίς\",\"sin, separado de\",\"prep. + gen.\"],[\"ἐκκλησία\",\"iglesia, asamblea\",\"sust. fem.\"],[\"οὐρανός\",\"cielo\",\"sust. masc.\"],[\"ἀδελφός\",\"hermano\",\"sust. masc.\"]]}"
+  },
+  {
+   "titulo": "Vocabulario · Semana 3 (lecciones 8–10)",
+   "icono": "fa-language",
+   "tipo": "vocabulario",
+   "contenido": "{\"filas\":[[\"εἰμί\",\"yo soy, estoy\",\"pres. de εἰμί · 1ª sg.\"],[\"εἶ\",\"tú eres\",\"pres. de εἰμί · 2ª sg.\"],[\"ἐστί(ν)\",\"él/ella es\",\"pres. de εἰμί · 3ª sg.\"],[\"ἐσμέν\",\"nosotros somos\",\"pres. de εἰμί · 1ª pl.\"],[\"ἐστέ\",\"vosotros sois\",\"pres. de εἰμί · 2ª pl.\"],[\"εἰσί(ν)\",\"ellos son\",\"pres. de εἰμί · 3ª pl.\"],[\"ἦν\",\"él/ella era\",\"pasado de εἰμί · 3ª sg.\"],[\"γράφω\",\"escribo\",\"verbo\"],[\"γράφεις\",\"tú escribes\",\"pres. act. · 2ª sg.\"],[\"γράφει\",\"él/ella escribe\",\"pres. act. · 3ª sg.\"],[\"θεός\",\"Dios\",\"sust. masc.\"],[\"κύριος\",\"Señor, dueño\",\"sust. masc.\"],[\"λύω\",\"suelto, libero\",\"pres. act. ind. · 1ª sg.\"],[\"λύεις\",\"tú liberas\",\"pres. act. ind. · 2ª sg.\"],[\"λύει\",\"él/ella libera\",\"pres. act. ind. · 3ª sg.\"],[\"λύομεν\",\"liberamos\",\"pres. act. ind. · 1ª pl.\"],[\"λύετε\",\"liberáis\",\"pres. act. ind. · 2ª pl.\"],[\"λύουσι(ν)\",\"liberan\",\"pres. act. ind. · 3ª pl.\"],[\"λέγω\",\"digo\",\"verbo\"],[\"ἀκούω\",\"oigo, escucho\",\"verbo\"],[\"ἐσθίω\",\"como\",\"verbo\"],[\"ἀκολουθέω\",\"sigo, acompaño\",\"verbo\"],[\"ἀκολουθείτω\",\"¡sígame!\",\"imperativo · 3ª sg.\"],[\"γράφω\",\"escribo\",\"verbo\"],[\"λύομαι\",\"soy soltado\",\"pres. pas. · 1ª sg.\"],[\"λύῃ\",\"eres soltado\",\"pres. pas. · 2ª sg.\"],[\"λύεται\",\"es soltado\",\"pres. pas. · 3ª sg.\"],[\"λυόμεθα\",\"somos soltados\",\"pres. pas. · 1ª pl.\"],[\"λύεσθε\",\"sois soltados\",\"pres. pas. · 2ª pl.\"],[\"λύονται\",\"son soltados\",\"pres. pas. · 3ª pl.\"],[\"ἔρχομαι\",\"vengo\",\"verbo deponente\"],[\"γίνομαι\",\"llego a ser, sucedo\",\"verbo deponente\"],[\"λούομαι\",\"me lavo\",\"voz media\"],[\"ὑπό\",\"por (agente)\",\"prep. + gen.\"],[\"λόγος\",\"palabra\",\"sust. masc.\"],[\"ὕδωρ\",\"agua\",\"sust. neut.\"]]}"
+  },
+  {
+   "titulo": "Vocabulario · Semana 4 (lecciones 11–12)",
+   "icono": "fa-language",
+   "tipo": "vocabulario",
+   "contenido": "{\"filas\":[[\"ἔλυον\",\"yo soltaba, estaba soltando\",\"imperfecto de λύω · 1ª sg.\"],[\"ἔλυες\",\"tú soltabas\",\"imperfecto de λύω · 2ª sg.\"],[\"ἐλύομεν\",\"soltábamos\",\"imperfecto de λύω · 1ª pl.\"],[\"ἠγάπων\",\"amaba, estaba amando\",\"imperfecto de ἀγαπάω\"],[\"ἤλπιζον\",\"esperaba\",\"imperfecto de ἐλπίζω\"],[\"ὥρων\",\"veía\",\"imperfecto de ὁράω\"],[\"ἴσχυον\",\"era fuerte\",\"imperfecto de ἰσχύω\"],[\"ὑπέμενον\",\"permanecía, resistía\",\"imperfecto de ὑπομένω\"],[\"ᾔτουν\",\"pedía\",\"imperfecto de αἰτέω\"],[\"εὕρισκον\",\"encontraba\",\"imperfecto de εὑρίσκω\"],[\"ἔλεγον\",\"decía, decían\",\"imperfecto de λέγω\"],[\"ἐβαπτίζοντο\",\"eran bautizados\",\"impf. pas. de βαπτίζω\"],[\"κατέβαινον\",\"descendían\",\"imperfecto de καταβαίνω\"],[\"ἐξέβαλλον\",\"echaba fuera\",\"imperfecto de ἐκβάλλω\"],[\"ἐποίουν\",\"hacía\",\"imperfecto de ποιέω\"],[\"ἐπλήρουν\",\"llenaba, cumplía\",\"imperfecto de πληρόω\"],[\"ἤμην\",\"yo era, estaba\",\"impf. de εἰμί · 1ª sg.\"],[\"ἦς\",\"tú eras\",\"impf. de εἰμί · 2ª sg.\"],[\"ἦν\",\"él/ella era\",\"impf. de εἰμί · 3ª sg.\"],[\"ἦμεν\",\"éramos\",\"impf. de εἰμί · 1ª pl.\"],[\"ἦτε\",\"erais\",\"impf. de εἰμί · 2ª pl.\"],[\"ἦσαν\",\"eran\",\"impf. de εἰμί · 3ª pl.\"],[\"διδάσκαλος\",\"maestro\",\"sust. masc.\"],[\"τελώνης\",\"publicano, recaudador\",\"sust. masc.\"],[\"φαρισαῖος\",\"fariseo\",\"sust. masc.\"],[\"λύσω\",\"liberaré\",\"futuro de λύω · 1ª sg.\"],[\"ἀκούσω\",\"escucharé\",\"futuro de ἀκούω\"],[\"ποιήσω\",\"haré\",\"futuro de ποιέω\"],[\"βλέψω\",\"veré\",\"futuro de βλέπω\"],[\"γράψω\",\"escribiré\",\"futuro de γράφω\"],[\"φυλάξω\",\"protegeré, guardaré\",\"futuro de φυλάσσω\"],[\"πιστεύσω\",\"creeré\",\"futuro de πιστεύω\"],[\"ἔσομαι\",\"seré, estaré\",\"futuro de εἰμί · 1ª sg.\"],[\"ἔσῃ\",\"serás\",\"futuro de εἰμί · 2ª sg.\"],[\"ἔσται\",\"será\",\"futuro de εἰμί · 3ª sg.\"],[\"ἐσόμεθα\",\"seremos\",\"futuro de εἰμί · 1ª pl.\"],[\"ἔσεσθε\",\"seréis\",\"futuro de εἰμί · 2ª pl.\"],[\"ἔσονται\",\"serán\",\"futuro de εἰμί · 3ª pl.\"],[\"πορεύομαι\",\"voy, me dirijo\",\"pres. deponente\"],[\"πορεύσομαι\",\"iré\",\"futuro de πορεύομαι\"],[\"γινώσκω\",\"conozco, sé\",\"pres. activo\"],[\"γνώσομαι\",\"conoceré\",\"futuro deponente de γινώσκω\"]]}"
+  },
+  {
+   "titulo": "Recursos y bibliografía",
+   "icono": "fa-folder-open",
+   "tipo": "recursos",
+   "contenido": "{\"items\":[{\"t\":\"Sílabo oficial 2026–2027\",\"d\":\"PDF con la evaluación, el plan semanal y la bibliografía completa.\",\"u\":\"assets/silabo-griego-I-2026-2027.pdf\",\"b\":\"Abrir PDF\"},{\"t\":\"Teknia Greek · Daily Dose of Greek\",\"d\":\"Recursos diarios de griego de William Mounce (en inglés).\",\"u\":\"https://www.teknia.com/greek-daily-dose\",\"b\":\"Abrir sitio\"},{\"t\":\"Dosis diaria de griego (español)\",\"d\":\"Versión en español de los recursos diarios de griego.\",\"u\":\"https://dosisdiariadegriego.com\",\"b\":\"Abrir sitio\"},{\"t\":\"Videos de Griego Bíblico I\",\"d\":\"Serie de videos del Dr. Matthew Leighton, capítulos 1 al 12.\",\"u\":\"https://dosisdiariadegriego.com/category/videos-griegos-basicos/griego-icapitulos-1-al-12/\",\"b\":\"Ver videos\"},{\"t\":\"Black, Aprenda a leer el griego\",\"d\":\"Libro de texto requerido. David Alan Black, Energion Publications, 2015.\",\"u\":\"\",\"b\":\"\"},{\"t\":\"De Foulkes, El griego del Nuevo Testamento\",\"d\":\"Texto programado, CLIE, 6ª ed., 1990. Bibliografía complementaria.\",\"u\":\"\",\"b\":\"\"},{\"t\":\"Lexicón griego-español del NT\",\"d\":\"Alfred E. Tuggy, Mundo Hispano, 2003. Léxico de referencia.\",\"u\":\"\",\"b\":\"\"}]}"
+  }
+ ],
+ "examenes": [
+  {
+   "titulo": "Quiz 1 · Lecciones 1–4",
+   "descripcion": "Alfabeto y pronunciación, sustantivos y casos, declinaciones, primera declinación y artículo definido. Una sola oportunidad; prohibido usar material de apoyo.",
+   "preguntas": [
+    {
+     "tipo": "sm",
+     "texto": "¿Cuántas letras tiene el alfabeto griego?",
+     "opciones": [
+      "22",
+      "24",
+      "26",
+      "28"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "¿Cómo se llama la vocal η?",
+     "opciones": [
+      "Épsilon",
+      "Eta",
+      "Iota",
+      "Gamma"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "vf",
+     "texto": "La sigma que va al final de una palabra se escribe ς.",
+     "opciones": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada letra griega con su nombre.",
+     "pares": [
+      {
+       "a": "α",
+       "b": "alfa"
+      },
+      {
+       "a": "β",
+       "b": "beta"
+      },
+      {
+       "a": "γ",
+       "b": "gamma"
+      },
+      {
+       "a": "δ",
+       "b": "delta"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "sm",
+     "texto": "En griego, la función de un sustantivo en la oración se determina por…",
+     "opciones": [
+      "su posición en la oración",
+      "las terminaciones de caso",
+      "el artículo que le acompaña siempre",
+      "el contexto únicamente"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "El caso del sujeto de la oración es el…",
+     "opciones": [
+      "genitivo",
+      "dativo",
+      "nominativo",
+      "acusativo"
+     ],
+     "correcta": 2,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "El caso del objeto directo es el…",
+     "opciones": [
+      "acusativo",
+      "nominativo",
+      "genitivo",
+      "vocativo"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "En la 2.ª declinación, un sustantivo masculino singular en nominativo termina en…",
+     "opciones": [
+      "-οι",
+      "-ον",
+      "-α",
+      "-ος"
+     ],
+     "correcta": 3,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada caso con su función principal.",
+     "pares": [
+      {
+       "a": "Nominativo",
+       "b": "sujeto"
+      },
+      {
+       "a": "Genitivo",
+       "b": "posesión (de)"
+      },
+      {
+       "a": "Dativo",
+       "b": "objeto indirecto (a, para)"
+      },
+      {
+       "a": "Acusativo",
+       "b": "objeto directo"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "red",
+     "texto": "Translitera al alfabeto latino la palabra λόγος, explica qué significa y por qué la σ final se escribe ς.",
+     "puntos": 2
+    }
+   ]
+  },
+  {
+   "titulo": "Quiz 2 · Lecciones 5–7",
+   "descripcion": "Adjetivos, pronombres personales y preposiciones con sus casos. Una sola oportunidad; prohibido usar material de apoyo.",
+   "preguntas": [
+    {
+     "tipo": "sm",
+     "texto": "Un adjetivo concuerda con el sustantivo al que modifica en…",
+     "opciones": [
+      "género y número",
+      "género, número y caso",
+      "número y caso únicamente",
+      "tiempo y persona"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "¿Qué significa el pronombre ἐγώ?",
+     "opciones": [
+      "tú",
+      "yo",
+      "nosotros",
+      "él"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada pronombre con su significado.",
+     "pares": [
+      {
+       "a": "ἐγώ",
+       "b": "yo"
+      },
+      {
+       "a": "σύ",
+       "b": "tú"
+      },
+      {
+       "a": "ἡμεῖς",
+       "b": "nosotros"
+      },
+      {
+       "a": "ὑμεῖς",
+       "b": "vosotros"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "sm",
+     "texto": "La preposición εἰς rige siempre el caso…",
+     "opciones": [
+      "genitivo",
+      "dativo",
+      "acusativo",
+      "nominativo"
+     ],
+     "correcta": 2,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada preposición con su significado básico.",
+     "pares": [
+      {
+       "a": "ἀπό",
+       "b": "desde, de"
+      },
+      {
+       "a": "εἰς",
+       "b": "hacia, en, para"
+      },
+      {
+       "a": "ἐν",
+       "b": "en"
+      },
+      {
+       "a": "ἐκ",
+       "b": "fuera de, desde dentro"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "sm",
+     "texto": "¿Qué preposición puede regir genitivo («a través de») y acusativo («a causa de»)?",
+     "opciones": [
+      "διά",
+      "ἐν",
+      "σύν",
+      "ἀνά"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "vf",
+     "texto": "Una frase preposicional siempre comienza con la preposición y termina indicando el caso del sustantivo que rige.",
+     "opciones": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "En «ἐν τῇ ἐκκλησίᾳ», el sustantivo que sigue a ἐν va en caso…",
+     "opciones": [
+      "genitivo",
+      "dativo",
+      "acusativo",
+      "vocativo"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "red",
+     "texto": "Traduce al español la frase «ὁ ἀπόστολος ἐν τῇ ἐκκλησίᾳ» e indica qué caso aparece y por qué.",
+     "puntos": 2
+    }
+   ]
+  },
+  {
+   "titulo": "Quiz 3 · Lecciones 8–10",
+   "descripcion": "El verbo εἰμί, introducción al verbo griego, presente activo y presente medio/pasivo. Una sola oportunidad; prohibido usar material de apoyo.",
+   "preguntas": [
+    {
+     "tipo": "sm",
+     "texto": "El verbo εἰμί significa…",
+     "opciones": [
+      "tener",
+      "ser o estar",
+      "decir",
+      "ir"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "En la oración «εἰμὶ ἀπόστολος», la palabra ἀπόστολος funciona como…",
+     "opciones": [
+      "sujeto",
+      "nominativo predicativo",
+      "objeto directo",
+      "vocativo"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada forma de εἰμί con su traducción.",
+     "pares": [
+      {
+       "a": "εἰμί",
+       "b": "yo soy"
+      },
+      {
+       "a": "εἶ",
+       "b": "tú eres"
+      },
+      {
+       "a": "ἐστί(ν)",
+       "b": "él, ella es"
+      },
+      {
+       "a": "εἰσί(ν)",
+       "b": "ellos son"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "sm",
+     "texto": "Las tres partes básicas de una forma verbal griega del presente activo son…",
+     "opciones": [
+      "artículo, raíz y desinencia",
+      "raíz, vocal de enlace y terminación",
+      "prefijo, tema y caso",
+      "raíz, augmento y artículo"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "En el presente activo indicativo, la 3.ª persona singular termina en…",
+     "opciones": [
+      "-ω",
+      "-εις",
+      "-ει",
+      "-ομεν"
+     ],
+     "correcta": 2,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada terminación del presente activo con su persona y número.",
+     "pares": [
+      {
+       "a": "-ω",
+       "b": "1.ª singular"
+      },
+      {
+       "a": "-εις",
+       "b": "2.ª singular"
+      },
+      {
+       "a": "-ει",
+       "b": "3.ª singular"
+      },
+      {
+       "a": "-ομεν",
+       "b": "1.ª plural"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "vf",
+     "texto": "En la voz pasiva, la acción recae sobre el sujeto: «el discípulo es enseñado».",
+     "opciones": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "La 1.ª persona singular del presente medio/pasivo indicativo termina en…",
+     "opciones": [
+      "-ομαι",
+      "-ει",
+      "-ω",
+      "-εται"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "red",
+     "texto": "Traduce al español: «ἐσμὲν μαθηταὶ τοῦ κυρίου». Indica además qué forma verbal aparece.",
+     "puntos": 2
+    }
+   ]
+  },
+  {
+   "titulo": "Quiz 4 · Lecciones 11–12",
+   "descripcion": "Imperfecto activo y pasivo, futuro activo y medio, futuro de εἰμί y futuro líquido. Una sola oportunidad; prohibido usar material de apoyo.",
+   "preguntas": [
+    {
+     "tipo": "sm",
+     "texto": "El tiempo imperfecto expresa acción…",
+     "opciones": [
+      "futura y puntual",
+      "pasada, continua o repetida",
+      "presente habitual",
+      "terminada en el pasado con resultados presentes"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "¿Cuál es la marca característica del imperfecto en el indicativo?",
+     "opciones": [
+      "la terminación -σουμαι",
+      "el augmento ἐ- al inicio",
+      "el prefijo προ-",
+      "la vocal de enlace ο/ε"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "La 1.ª persona singular del imperfecto activo de λέγω es…",
+     "opciones": [
+      "ἔλεγον",
+      "λέγω",
+      "ἐλέγeto",
+      "ἐρεῖν"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada forma del imperfecto con su traducción.",
+     "pares": [
+      {
+       "a": "ἔλεγον",
+       "b": "yo decía"
+      },
+      {
+       "a": "ἔλεγες",
+       "b": "tú decías"
+      },
+      {
+       "a": "ἔλεγεν",
+       "b": "él decía"
+      },
+      {
+       "a": "ἐλέγομεν",
+       "b": "nosotros decíamos"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "vf",
+     "texto": "El futuro de εἰμί en 3.ª persona singular es ἔσται («él será»).",
+     "opciones": [
+      "Verdadero",
+      "Falso"
+     ],
+     "correcta": 0,
+     "puntos": 1
+    },
+    {
+     "tipo": "emp",
+     "texto": "Une cada forma del futuro con su traducción.",
+     "pares": [
+      {
+       "a": "ἔσομαι",
+       "b": "yo seré"
+      },
+      {
+       "a": "ἔσῃ",
+       "b": "tú serás"
+      },
+      {
+       "a": "λύσω",
+       "b": "yo soltaré"
+      },
+      {
+       "a": "λύσομεν",
+       "b": "nosotros soltaremos"
+      }
+     ],
+     "puntos": 2
+    },
+    {
+     "tipo": "sm",
+     "texto": "El verbo πορεύομαι («voy») tiene en futuro la forma πορεύσομαι. ¿Cómo se llama este tipo de futuro?",
+     "opciones": [
+      "futuro líquido",
+      "futuro deponente",
+      "futuro perfecto",
+      "futuro atemático"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "sm",
+     "texto": "En los verbos líquidos (como κρίνω → κρινῶ), al formar el futuro…",
+     "opciones": [
+      "aparece un augmento nuevo",
+      "la consonante final del tema se funde con la σ o la absorbe",
+      "se duplica la terminación",
+      "cambia el tiempo por el aoristo"
+     ],
+     "correcta": 1,
+     "puntos": 1
+    },
+    {
+     "tipo": "red",
+     "texto": "Traduce al español: «ἐδίδασκεν τὸν λαὸν ἐν τῇ συναγωγῇ». Señala el tiempo verbal y su sentido.",
+     "puntos": 2
+    }
+   ]
+  }
+ ],
+ "foros": [
+  {
+   "titulo": "Foro de Debate 1 · La mujer en la iglesia (1 Timoteo 2:11-15)",
+   "pregunta": "¿Cómo influye el estudio del griego koiné en la comprensión del papel de la mujer en la iglesia? Analiza 1 Timoteo 2:11-15 desde el texto griego.",
+   "instrucciones": "Escribe un aporte inicial de no menos de 350 palabras, fundamentado en el uso del griego (referencias a términos, casos y construcción del texto) y con pensamiento crítico. Responde después al menos a un compañero con un aporte de no menos de 150 palabras. Lenguaje respetuoso y actitud humilde. El foro abre el miércoles de la semana 3 y cierra a las 10 pm con las conclusiones del profesor.",
+   "minPalabras": 350,
+   "abierto": "Si"
+  },
+  {
+   "titulo": "Foro de Debate 2 · La advertencia de Hebreos 6:4-6",
+   "pregunta": "Interpreta con el griego koiné la severa advertencia de Hebreos 6:4-6. ¿Qué aporta el análisis del texto original a esta lectura?",
+   "instrucciones": "Aporte inicial de no menos de 350 palabras con fundamento exegético y una respuesta a un compañero de no menos de 150. El foro se abre el miércoles de la semana 4.",
+   "minPalabras": 350,
+   "abierto": "No"
+  }
+ ],
+ "tareas": [
+  {
+   "titulo": "Hoja del Alfabeto",
+   "instrucciones": "Actividad previa a la primera sesión. Domina la escritura y pronunciación del alfabeto griego, completa la hoja del alfabeto a mano y entrégasela a uno de los alumnos ayudantes el primer día de clases. Puedes enviar una foto o PDF al profesor por correo o WhatsApp desde esta pestaña.",
+   "formato": "Archivo (foto o PDF)",
+   "vence": "Primer día de clases",
+   "visible": true
+  },
+  {
+   "titulo": "Guía de ejercicios · Semana 1 (lecciones 1–4)",
+   "instrucciones": "Completa los ejercicios de la guía correspondientes a las lecciones 1 a 4 en formato editable (Google Docs o Word). Los paradigmas y trazos se presentan a mano, en imagen. Deben estar completos antes del viernes para usarlos de bosquejo en la audiollamada. Envía el archivo al profesor por correo.",
+   "formato": "Archivo (Docs o Word)",
+   "vence": "Viernes · antes de la sesión",
+   "visible": true
+  },
+  {
+   "titulo": "Tarjetas resumen · Semana 1",
+   "instrucciones": "Una tarjeta breve por lección de la semana (lecciones 1 a 4) que sintetice de forma clara y visual lo esencial: paradigmas, vocabulario clave y reglas. Máximo una página por lección. Formato libre: imagen, PDF, Canva o manuscrita fotografiada. Envíalas por WhatsApp al profesor.",
+   "formato": "Imagen o PDF (por WhatsApp)",
+   "vence": "Domingo · 11:59 pm",
+   "visible": true
+  },
+  {
+   "titulo": "Guía de ejercicios · Semana 2 (lecciones 5–7)",
+   "instrucciones": "Completa los ejercicios de la guía correspondientes a las lecciones 5 a 7 en formato editable (Google Docs o Word). Paradigmas y trazos a mano, en imagen. Deben estar completos antes del viernes. Envía el archivo al profesor por correo.",
+   "formato": "Archivo (Docs o Word)",
+   "vence": "Viernes · antes de la sesión",
+   "visible": true
+  },
+  {
+   "titulo": "Tarjetas resumen · Semana 2",
+   "instrucciones": "Tarjetas de las lecciones 5 a 7: paradigmas, vocabulario clave y reglas, una página por lección. Formato libre (imagen, PDF o manuscrita fotografiada). Envíalas por WhatsApp al profesor.",
+   "formato": "Imagen o PDF (por WhatsApp)",
+   "vence": "Domingo · 11:59 pm",
+   "visible": true
+  },
+  {
+   "titulo": "Guía de ejercicios · Semana 3 (lecciones 8–10)",
+   "instrucciones": "Completa los ejercicios de la guía correspondientes a las lecciones 8 a 10 en formato editable (Google Docs o Word). Deben estar completos antes del viernes. Envía el archivo al profesor por correo.",
+   "formato": "Archivo (Docs o Word)",
+   "vence": "Viernes · antes de la sesión",
+   "visible": true
+  },
+  {
+   "titulo": "Tarjetas resumen · Semana 3",
+   "instrucciones": "Tarjetas de las lecciones 8 a 10: paradigmas, vocabulario clave y reglas, una página por lección. Formato libre. Envíalas por WhatsApp al profesor.",
+   "formato": "Imagen o PDF (por WhatsApp)",
+   "vence": "Domingo · 11:59 pm",
+   "visible": true
+  },
+  {
+   "titulo": "Guía de ejercicios · Semana 4 (lecciones 11–12)",
+   "instrucciones": "Completa los ejercicios de la guía correspondientes a las lecciones 11 y 12 en formato editable (Google Docs o Word). Deben estar completos antes del viernes. La guía completa se entrega el último viernes de la asignatura. Envía el archivo al profesor por correo.",
+   "formato": "Archivo (Docs o Word)",
+   "vence": "Último viernes de la asignatura",
+   "visible": true
+  },
+  {
+   "titulo": "Tarjetas resumen · Semana 4",
+   "instrucciones": "Tarjetas de las lecciones 11 y 12: paradigmas, vocabulario clave y reglas, una página por lección. Formato libre. Envíalas por WhatsApp al profesor.",
+   "formato": "Imagen o PDF (por WhatsApp)",
+   "vence": "Domingo · 11:59 pm",
+   "visible": true
+  }
+ ],
+ "anuncios": [
+  {
+   "titulo": "Bienvenidos a Griego I",
+   "tag": "Bienvenida",
+   "pin": true,
+   "cuerpo": "El curso es 100 % en línea: audiollamadas sincrónicas los viernes a las 2:30 pm y trabajo asincrónico en la plataforma durante la semana (3 lecciones por semana durante 4 semanas). Cada semana estudiarás las lecciones, practicarás el vocabulario, entregarás la guía de ejercicios y las tarjetas resumen desde la pestaña Tareas, y realizarás el quiz de la semana. Todas las tareas vencen el domingo a las 11:59 pm. ¡Bienvenido al estudio de la lengua del Nuevo Testamento!"
+  },
+  {
+   "titulo": "Cómo enviar tus tareas al profesor",
+   "tag": "Importante",
+   "pin": true,
+   "cuerpo": "En la pestaña Tareas de esta asignatura tienes accesos directos para enviar cada tarea: el botón «Correo» abre tu correo ya dirigido al profesor con el asunto listo, y el botón «WhatsApp» abre el chat del profesor con un mensaje preparado. Después de enviar el archivo, marca la tarea como enviada para que quede registrada en la plataforma."
+  },
+  {
+   "titulo": "Quizzes semanales: cómo funcionan",
+   "tag": "Evaluación",
+   "pin": false,
+   "cuerpo": "Cada semana encontrarás un quiz en la pestaña Exámenes. Las preguntas de selección múltiple, verdadero/falso y de unir columnas se corrigen al instante; las preguntas de redacción quedan pendientes de la revisión manual del profesor. Recuerda: una sola oportunidad y prohibido usar material de clases, libros o IA durante el quiz."
+  },
+  {
+   "titulo": "Foros de debate: prepara tu participación",
+   "tag": "Foro",
+   "pin": false,
+   "cuerpo": "Habrás dos foros de debate online. Cada uno exige un aporte inicial de no menos de 350 palabras fundamentado en el griego y una respuesta a un compañero de no menos de 150. Te avisaremos por anuncio cuando el profesor abra cada foro."
+  }
+ ],
+ "chat": [
+  {
+   "texto": "¡Bienvenidos al foro de dudas de Griego I! Aquí pueden preguntar sobre las lecciones, el vocabulario y las guías. Mi correo es joelgc242@gmail.com y mi WhatsApp 5353422375 por si necesitan escribirme directo.",
+   "rol": "profesor"
+  }
+ ]
+}

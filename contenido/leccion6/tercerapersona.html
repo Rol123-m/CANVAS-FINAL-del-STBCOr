@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronombres de Tercera Persona en Español</title>
+    <link rel="stylesheet" href="griego-koine.css">
+</head>
+<body>
+    <div class="lesson-content-container">
+        <h2>Pronombres de Tercera Persona en Español</h2>
+
+        <div class="intro-box">
+            <p>Los pronombres de tercera persona se refieren a personas o cosas de las que se habla. A diferencia de primera y segunda persona, estos pronombres tienen género gramatical.</p>
+        </div>
+
+        <div class="section-box">
+            <h3>Formas Flexionadas del Pronombre de Tercera Persona</h3>
+            
+            <div class="definition-box">
+                <p>Los pronombres de tercera persona en español presentan formas diferentes según género (masculino, femenino, neutro) y función gramatical.</p>
+            </div>
+
+            <table class="greek-table">
+                <thead>
+                    <tr>
+                        <th>Función</th>
+                        <th>Masculino</th>
+                        <th>Femenino</th>
+                        <th>Neutro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Singular subjetivo</td>
+                        <td>él</td>
+                        <td>ella</td>
+                        <td>ello*</td>
+                    </tr>
+                    <tr>
+                        <td>Singular posesivo</td>
+                        <td>su (de él)</td>
+                        <td>su (de ella)</td>
+                        <td>su (de ello)</td>
+                    </tr>
+                    <tr>
+                        <td>Singular objetivo</td>
+                        <td>lo/le**</td>
+                        <td>la</td>
+                        <td>lo</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="note-box">
+                <p><strong>Notas importantes:</strong></p>
+                <ul>
+                    <li><strong>"Ello"</strong> se usa solo para cosas abstractas o conceptos (ej. "El amor... ello es importante")</li>
+                    <li>En español, <strong>"le"</strong> (objeto indirecto) y <strong>"lo/la"</strong> (objeto directo) dependen del verbo</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-box">
+            <h3>Diferencia Principal con Primera y Segunda Persona</h3>
+            
+            <div class="definition-box">
+                <p>La única diferencia significativa es que los pronombres de tercera persona singular <strong>distinguen género</strong> (él/ella), mientras que los de primera ("yo", "nosotros") y segunda ("tú", "vosotros") no.</p>
+            </div>
+
+            <div class="example-box">
+                <h4>Reglas clave:</h4>
+                <ol>
+                    <li>El caso del pronombre depende de su función en la oración</li>
+                    <li>El género y número del pronombre deben concordar con su antecedente</li>
+                </ol>
+            </div>
+
+            <div class="warning-box">
+                <h4>Ejemplo con el antecedente "María":</h4>
+                <ul class="example-list">
+                    <li class="correct">✅ <strong>"Quiero hablar con ella."</strong><br>Objetivo: "ella" concuerda en género y número con "María"</li>
+                    <li class="incorrect">❌ "Quiero hablar con ello."<br>Incorrecto: "María" no es neutro</li>
+                    <li class="incorrect">❌ "Quiero hablar con ellos."<br>Incorrecto: "María" es singular</li>
+                    <li class="correct">✅ <strong>"Quiero verla."</strong><br>Objeto directo: "la" concuerda con "María"</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="quiz-section">
+            <h3>Práctica con Pronombres de Tercera Persona</h3>
+            
+            <div class="quiz-question">
+                <p><strong>1. ¿Cuál es la forma neutra del pronombre subjetivo de tercera persona?</strong></p>
+                <div class="quiz-options">
+                    <label><input type="radio" name="q1" value="a"> él</label>
+                    <label><input type="radio" name="q1" value="b"> ella</label>
+                    <label><input type="radio" name="q1" value="c"> ello</label>
+                </div>
+                <div class="result" id="result1"></div>
+            </div>
+
+            <div class="quiz-question">
+                <p><strong>2. ¿Cuál sería el pronombre correcto en: "El libro está sobre ___ mesa" (posesivo femenino)?</strong></p>
+                <div class="quiz-options">
+                    <label><input type="radio" name="q2" value="a"> su</label>
+                    <label><input type="radio" name="q2" value="b"> tu</label>
+                    <label><input type="radio" name="q2" value="c"> mi</label>
+                </div>
+                <div class="result" id="result2"></div>
+            </div>
+
+            <div class="quiz-question">
+                <p><strong>3. ¿Qué pronombre usarías como objeto directo para "el niño"?</strong></p>
+                <div class="quiz-options">
+                    <label><input type="radio" name="q3" value="a"> le</label>
+                    <label><input type="radio" name="q3" value="b"> lo</label>
+                    <label><input type="radio" name="q3" value="c"> la</label>
+                </div>
+                <div class="result" id="result3"></div>
+            </div>
+
+            <button onclick="checkAnswers()">Comprobar Respuestas</button>
+        </div>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            const answers = {
+                q1: 'c',
+                q2: 'a',
+                q3: 'b'
+            };
+
+            for (const question in answers) {
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const resultElement = document.getElementById(`result${question.slice(1)}`);
+                
+                if (selectedOption) {
+                    if (selectedOption.value === answers[question]) {
+                        resultElement.textContent = "✓ ¡Correcto!";
+                        resultElement.className = "result correct";
+                    } else {
+                        resultElement.textContent = "✗ Incorrecto. La respuesta correcta es la opción " + 
+                            (answers[question] === 'a' ? 'A' : answers[question] === 'b' ? 'B' : 'C');
+                        resultElement.className = "result incorrect";
+                    }
+                } else {
+                    resultElement.textContent = "Por favor, selecciona una respuesta.";
+                    resultElement.className = "result incorrect";
+                }
+            }
+
+            document.querySelectorAll('.quiz-options input').forEach(input => {
+                input.disabled = true;
+            });
+        }
+    </script>
+</body>
+</html>
