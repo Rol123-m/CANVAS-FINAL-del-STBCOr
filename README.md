@@ -1,6 +1,16 @@
-# Plataforma del Seminario · Asignaturas (v3)
+# Plataforma del Seminario · Asignaturas (v3.1)
 
 Plataforma de asignaturas estilo Canvas para el **Seminario Teológico Bautista de Cuba Oriental**, construida sobre el diseño de la página del curso de Griego: **Google Sheets como base de datos + Google Apps Script como API + front-end estático configurable en `js/config.js`**.
+
+**Correcciones v3.1** (por qué «no cargaba el contenido» y por qué aparecían hojas que el script no usaba)
+
+- **La base SIEMPRE es tu hoja enlazada**: `code.gs` usa la hoja de cálculo donde pegaste el script; ya no crea un archivo aparte «BD Plataforma del Seminario».
+- **Se acabaron las hojas sueltas «_Examenes», «_Pestanas»...**: el prefijo de hojas de cada asignatura se guarda siempre bien al crear o importar.
+- **El contenido importado (JSON) ya carga**: antes se volcaba en hojas huérfanas; ahora va a las hojas con prefijo de la asignatura.
+- **Los aportes de los foros de debate ya aparecen** (la hoja FPosts ahora guarda la columna ForoID).
+- **Las lecturas ya no crean hojas**: recorrer varias asignaturas no genera hojas vacías.
+- **Borrado de anuncios y visibilidad de exámenes reparados** (contrato alineado con la interfaz).
+- **NUEVA función `reparar()`**: si venías de la versión anterior, ejecútala UNA VEZ desde el editor; consolida la base en tu hoja, recupera el contenido de las hojas huérfanas y borra las sobrantes. No pierde datos.
 
 **Novedades de esta versión (v3)**
 
@@ -25,7 +35,7 @@ Plataforma de asignaturas estilo Canvas para el **Seminario Teológico Bautista 
 | `js/demo-data.js` | Base de datos de estudiantes (72) y profesores para el modo demo |
 | `js/api.js` | Capa de datos: Apps Script cuando está conectada; demo (localStorage) si no |
 | `js/app.js` | Interfaz y lógica de la plataforma |
-| `code.gs` | **Backend completo para Google Apps Script** (no se sube al repositorio) |
+| `code.gs` | **Backend completo para Google Apps Script** (v3.1; no se sube al repositorio) |
 | `griego-i.json` | Asignatura Griego I lista para **Importar asignatura (JSON)** |
 | `contenido/` | Los 43 archivos HTML de las 12 lecciones de Griego I (se abren dentro de la plataforma) |
 | `assets/silabo-griego-I-2026-2027.pdf` | Sílabo oficial enlazado en los módulos |
@@ -48,9 +58,9 @@ En demo verás **Griego I ya montada**: 20 módulos (presentación, evaluación,
 
 ## 2 · Conectar Google Sheets + Apps Script
 
-1. Crea una hoja de cálculo nueva en Google Drive.
+1. Crea una hoja de cálculo nueva en Google Drive. **Toda la base vivirá en ESTE archivo** (es la hoja enlazada con el script; no se crea ningún otro archivo).
 2. **Extensiones → Apps Script**, borra lo que haya y pega **todo el contenido de `code.gs`**.
-3. Ejecuta **`setup`** una vez y autoriza los permisos (crea la base, siembra los 72 estudiantes y prepara las hojas globales).
+3. Si venías de la versión anterior (v3.0) y te creó hojas sueltas o el contenido no cargaba: ejecuta **`reparar`** una vez y autoriza los permisos. Si es una instalación nueva: ejecuta **`setup`** una vez. En ambos casos revisa el Registro de ejecución: la reparación informa todo lo que hizo.
 4. **Implementar → Nueva implementación → Aplicación web** · Ejecutar como *Yo* · Quién puede acceder *Cualquier persona*.
 5. Copia la URL que termina en `/exec` y pégala en `js/config.js` → campo `api`.
 6. Entra como dirección (clave `rector-kmczyts`) y pulsa **«Importar asignatura (JSON)»** → carga el archivo **`griego-i.json`** → Griego I se monta completa en un paso (módulos, lecciones con rutas, 4 quizzes con todas las preguntas, 2 foros, 9 tareas y anuncios).
@@ -63,6 +73,7 @@ En demo verás **Griego I ya montada**: 20 módulos (presentación, evaluación,
 **Hojas por asignatura** (prefijo único, p. ej. `A1a2b3c_Examenes`): `Pestanas`, `Examenes`, `Preguntas`, `Intentos`, `Progreso`, `Tareas`, `Entregas`, `Anuncios`, `Chat`, `Foros`, `FPosts`.
 
 > ¿Venías de la versión 2? **`setup()` migra automáticamente** el contenido de las hojas globales antiguas (Pestanas, Examenes, Preguntas, Intentos, Progreso, Anuncios, Chat) a las hojas por asignatura. No se pierde nada.
+> ¿Venías de la v3.0 y ves hojas sueltas («_Examenes», «_Pestanas»...) o el contenido no carga? Ejecuta **`reparar()`** una vez desde el editor: mueve la base a tu hoja enlazada, recupera el contenido de esas hojas huérfanas y las elimina.
 
 ### Claves de la dirección
 
